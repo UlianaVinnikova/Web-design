@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Опитування</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #FAFAD2;
+      font-family: Comfortaa, sans-serif;
+    }
+    .button-link {
+      color: black;
+      font-weight: bold;
+      margin: 10px;
+      padding: 8px 12px;
+      border: 1px solid black;
+      border-radius: 4px;
+    }
+    .button-link:hover {
+      background-color: green;
+      color: white;
+    }
+    .container h1 {
+      margin: 50px;
+    }
+    .form-group {
+      margin-bottom: 25px;
+    }
+  </style>
+</head>
+<body>
+  <ul class="nav justify-content-end">
+    <li class="nav-item">
+      <a class="nav-link button-link" href="main.html">Головна сторінка</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link button-link" href="profile.html">Профіль</a>
+    </li>
+  </ul>
+
+  <div class="container">
+    <div class="container text-center">
+    <h1>Опитування на тему: "Сортування сміття"</h1>
+    </div>
+
+    <form>
+      <p class ="question">Чи вважаєте Ви, що в Україні є проблема з сортуванням сміття?</p>
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="options1" id="option1-1" value="red">
+          <label class="form-check-label" for="option1-1">Так</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="options1" id="option1-2" value="blue">
+          <label class="form-check-label" for="option1-2">Ні</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="options1" id="option1-3" value="blue">
+          <label class="form-check-label" for="option1-3">Складно відповісти</label>
+        </div>
+      </div>
+
+      <p class ="question">Чи знаєте Ви, які існують види відходів?</p>
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="options2" id="option2-1" value="red">
+          <label class="form-check-label" for="option2-1">Так</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="options2" id="option2-2" value="blue">
+          <label class="form-check-label" for="option2-2">Ні</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="options2" id="option2-3" value="blue">
+          <label class="form-check-label" for="option2-3">Складно відповісти</label>
+        </div>
+      </div>
+
+      <p class ="question">Чи сортуєте Ви відходи вдома?</p>
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="options3" id="option3-1" value="red">
+          <label class="form-check-label" for="option3-1">Так, використовую окремі контейнери або пакети для різних видів сміття</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="options3" id="option3-2" value="blue">
+          <label class="form-check-label" for="option3-2">Ні, немає окремого сортування, кидаю все у звичайний смітник</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="options3" id="option3-3" value="blue">
+          <label class="form-check-label" for="option3-3">Іноді</label>
+        </div>
+      </div>
+
+      <p class ="question">Чи купуєте одноразові пакети у магазині?</p>
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="options4" id="option4-1" value="red">
+          <label class="form-check-label" for="option4-1">Ні, я користуюся багаторазовою екологічною торбинкою з тканини</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="options4" id="option4-2" value="blue">
+          <label class="form-check-label" for="option4-2">Іноді, якщо забуду торбинку вдома</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="options4" id="option4-3" value="blue">
+          <label class="form-check-label" for="option4-3">Так, купую завжди</label>
+        </div>
+      </div>
+
+      <p class ="question">Які перешкоди чи труднощі ви зустрічаєте під час сортування сміття у Вашому місті?</p>
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="options5" id="option5-1" value="red">
+          <label class="form-check-label" for="option5-1">Відсутність підходящих контейнерів або сміттєвих пакетів</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="options5" id="option5-2" value="blue">
+          <label class="form-check-label" for="option5-2">Відсутність зручного доступу до сміттєвих контейнерів або пунктів збору</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="options5" id="option5-3" value="blue">
+          <label class="form-check-label" for="option5-3">Брак мотивації або свідомості про важливість сортування</label>
+        </div>
+      </div>
+
+      <p class ="question">Як часто Ви отримуєте інформацію про сортування сміття від місцевих владних органів або організацій?</p>
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="options6" id="option6-1" value="red">
+          <label class="form-check-label" for="option6-1">Регулярно</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="options6" id="option6-2" value="blue">
+          <label class="form-check-label" for="option6-2">Час від часу</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="options6" id="option6-3" value="blue">
+          <label class="form-check-label" for="option6-3">Рідко, майже не отримую</label>
+        </div>
+      </div>
+
+      <p class ="question">Чи вважаєте проблему зі сортуванням сміття актуальною?</p>
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="options7" id="option7-1" value="red">
+          <label class="form-check-label" for="option7-1">Так, адже природа страждає від сміття</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="options7" id="option7-2" value="blue">
+          <label class="form-check-label" for="option7-2">Ні, на мою думку, проблема є неважливою</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="options7" id="option7-3" value="blue">
+          <label class="form-check-label" for="option7-3">Складно відповісти, треба ще розбиратися в даному питанні</label>
+        </div>
+      </div>
+      <a class="center-btn btn-primary" href="main.html" role="button">Надіслати</a>
+    </form>
+  </div>
+</body>
+</html>
