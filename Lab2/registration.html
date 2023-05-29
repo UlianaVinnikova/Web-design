@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Реєстрація</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #FAFAD2;
+      font-family: Comfortaa, sans-serif;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    .form-control {
+      width: 300px;
+      max-width: 100%;
+    }
+    .center-btn {
+      display: flex;
+      justify-content: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Реєстрація</h1>
+    <form>
+      <div class="mb-3">
+        <label for="exampleInputName" class="form-label">Ім'я:</label>
+        <input type="text" class="form-control" id="exampleInputName" placeholder="Введіть ім'я">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputLastName" class="form-label">Прізвище:</label>
+        <input type="text" class="form-control" id="exampleInputLastName" placeholder="Введіть прізвище">
+      </div>
+      <div class="mb-3">
+        <label for="exampleGender" class="form-label">Стать:</label>
+        <select class="form-select" id="exampleGender">
+          <option value="">Оберіть стать:</option>
+          <option value="male">Жіноча</option>
+          <option value="female">Чоловіча</option>
+        </select>
+      </div>
+      <div class="mb-3">
+        <label for="birthdate" class="form-label">Дата народження:</label>
+        <input type="date" class="form-control" id="birthdate" name="birthdate">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputEmail" class="form-label">Email:</label>
+        <input type="email" class="form-control" id="exampleInputEmail" placeholder="Введіть Email">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword" class="form-label">Пароль:</label>
+        <input type="password" class="form-control" id="exampleInputPassword" placeholder="Введіть пароль">
+      </div>
+      <a class="center-btn btn-primary" href="main.html" role="button">Зареєструватися</a>
+    </form>
+  </div>
+</body>
+</html>

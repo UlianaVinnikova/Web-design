@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Вхід</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #FAFAD2;
+            font-family: Comfortaa, sans-serif;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 80vh;
+        }
+        .form-control {
+            width: 300px;
+            max-width: 100%;
+        }
+        .center-btn {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Вхід</h1>
+    <form>
+        <div class="mb-3">
+            <label for="exampleInputEmail" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="exampleInputEmail" placeholder="Введіть Email">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword" class="form-label">Пароль:</label>
+            <input type="password" class="form-control" id="exampleInputPassword" placeholder="Введіть пароль">
+        </div>
+        <a class="center-btn btn-primary" href="main.html" role="button">Увійти</a>
+    </form>
+</div>
+</body>
+</html>
