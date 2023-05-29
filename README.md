@@ -3,3 +3,6 @@
 Загальне завдання: розробити статичні Web-сторінки додатку та перевірити коректне їх відображення на екранах різного розміру.
 https://docs.google.com/document/d/1i5dTME_hdUiIsxtSQaxaVfwioMnyDDgumid2PS5pX7w/edit 
 
+Лабораторна робота №2. Розробка функціональності Web-додатка мовою JavaScript.
+Загальне завдання: розробити функціональність для статичних сторінок Web-додатку першої лабораторної роботи із використанням шаблону MVC.
+https://docs.google.com/document/d/1tnN8Q3IdEjAxK_huH72EV2fMLlShIdFguSvZsRFyxYo/edit 
